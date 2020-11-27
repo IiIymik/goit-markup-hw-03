@@ -13,6 +13,36 @@ ul {
 a {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -26,8 +56,42 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /* ======================= Главная страница =============*/
 /* ======================= Шапка =====================*/
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid #ececec;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header .logo-dark {
+  margin-right: 200px;
+}
+.header-contact {
+  margin: 0 auto;
+}
+.header-contact-tel {
+  margin-left: 50px;
+  margin-right: 0;
+}
 /* logo-header */
 .logo-dark {
   font-family: var(--secondary-font);
