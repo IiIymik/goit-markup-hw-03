@@ -1,0 +1,221 @@
+/* ===================== Компоненты ============== */
+:root {
+  --accent-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+body {
+  font-family: var(--main-font);
+}
+ul {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ======================= Главная страница =============*/
+/* ======================= Шапка =====================*/
+/* logo-header */
+.logo-dark {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-dark > .logo-accent {
+  color: var(--accent-color);
+}
+/* nav-list */
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.current-nav {
+  color: var(--accent-color);
+}
+.nav-list-link:hover,
+.nav-list-link:focus,
+.header-contact-mail:hover,
+.header-contact-mail:focus,
+.header-contact-tel:hover,
+.header-contact-tel:focus {
+  color: var(--accent-color);
+}
+/* header-contact */
+
+.header-contact-mail,
+.header-contact-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: #757575;
+  font-style: normal;
+}
+/* ======================= Шапка =====================*/
+/* ======================= Герой =====================*/
+.main-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121;
+  background-color: var(--accent-color);
+}
+/* .hero-btn:hover, */
+.hero-btn:focus {
+  color: #ffffff;
+}
+/* ======================= Герой =====================*/
+/* ======================= Особености =====================*/
+.feature-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.feature-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ======================= Особености =====================*/
+/* ======================= Чем мы занимаемся =====================*/
+.about-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/* ======================= Чем мы занимаемся =====================*/
+/* ======================= Наша команда =====================*/
+.team-person {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-person-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ======================= Наша команда =====================*/
+/* ======================= Подвал =====================*/
+.footer {
+  background-color: #2f303a;
+}
+.footer-contact-address {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-contact-mail,
+.footer-contact-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact-mail:hover,
+.footer-contact-mail:focus,
+.footer-contact-tel:hover,
+.footer-contact-tel:focus {
+  color: var(--accent-color);
+}
+.logo-light {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.logo-light > .logo-accent {
+  color: var(--accent-color);
+}
+/* ======================= Подвал =====================*/
+/* ======================= Главная страница =============*/
+/* ======================= Портфолио =============*/
+/* ======================= Радио кнопки =============*/
+.radio-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.radio-btn:hover,
+.radio-btn:focus {
+  font-family: var(--main-font);
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* ======================= Список Портфолио =============== */
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ======================= Список Портфолио =============== */
