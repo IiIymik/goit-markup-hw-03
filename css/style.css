@@ -369,9 +369,27 @@ margin-top: 60px;
   cursor: pointer;
 }
 .portfolio-list{
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 94px;
+  margin-top: 50px;
 }
+.portfolio-item{
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+}
+
+.portfolio-item:nth-child(3n){
+  margin-right: 0;
+}
+
 .portfolio-title {
+  padding:20px 24px 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -379,14 +397,11 @@ margin-top: 60px;
   color: #212121;
 }
 .portfolio-description {
+  margin: 0 24px 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
-}
-.portfolio-list{
-  display: flex;
-  justify-content: space-between;
 }
 /* ======================= Список Портфолио =============== */
