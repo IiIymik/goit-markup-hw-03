@@ -5,7 +5,7 @@
   --secondary-font: "Raleway", sans-serif;
 }
 
-}
+
 body {
   font-family: var(--main-font);
 }
@@ -179,6 +179,7 @@ img {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: #FFFFFF;
+  outline: none;
 
 }
 
@@ -257,7 +258,6 @@ display: flex;
 }
 .team-item:not(:last-child){
   margin-right: 30px;
-  
 }
 .team-person {
   margin-top: 30px;
@@ -314,7 +314,7 @@ display: flex;
 }
 .logo-light {
   display: block;
-margin-top: 60px;
+  margin-top: 60px;
   margin-bottom: 20px;
 
   font-family: var(--secondary-font);
